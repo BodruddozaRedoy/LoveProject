@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-yes{
+    background: greenyellow;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 40px;
+}
+.btn-no{
+    background: red;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 40px;
+}
+
+.btn-yes:hover{
+    border: 2px solid black;
+}
+.btn-no:hover{
+    border: 2px solid black;
+}
+
+#ansYes{
+    display: none;
+}
+
+#ansNo{
+    display: none;
+}
