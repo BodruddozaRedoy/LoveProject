@@ -37,3 +37,11 @@
 #ansNo{
     display: none;
 }
+
+
+
+@media screen and (max-width: 800px) {
+    .ans, .ansYes, .ansNo {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
